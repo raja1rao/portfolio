@@ -211,7 +211,7 @@ function ajaxPortfolioSetup($ajaxLink, $ajaxContainer) {
             },
             error: function(e) {
                 $ajaxContainer.find('.ajax-loader').hide();
-                $ajaxContainer.find('.content-wrap .popup-content').html('<h1 class="text-center">Something went wrong! Retry or refresh the page.</h1>')
+                $ajaxContainer.find('.content-wrap .popup-content').html('<h1 class="text-center">Something went wrong! Retry or refresh the page.</h1>');
             }
         });
         e.preventDefault();
